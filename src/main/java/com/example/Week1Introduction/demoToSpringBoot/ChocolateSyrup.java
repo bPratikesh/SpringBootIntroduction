@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @ConditionalOnProperty(name = "set.syrup", havingValue = "chocolate")
-public class ChocolateSyrup implements Syrup{
+public class ChocolateSyrup implements Syrup {
     public String getSyrupType(){
         return "Chocolate Syrup";
     }
